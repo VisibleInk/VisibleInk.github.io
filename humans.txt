@@ -1,0 +1,12 @@
+/* TEAM */
+
+  Designer: Johnnie Ingram @ Mental Compost
+  Web: johnnie.me.uk
+
+  Based on: BlackTie
+  Web: blacktie.co
+
+/* SITE */
+  Last update: 2017/04/05
+  Language: English
+  Doctype: HTML5
