@@ -16,6 +16,6 @@
 
 
 /* SITE */
-  Last update: 2017/04/05
+  Last update: 2017/09/28
   Language: English
   Doctype: HTML5
