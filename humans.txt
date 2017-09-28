@@ -6,6 +6,10 @@
   Based on: BlackTie
   Web: blacktie.co
 
+/* CONTACT */
+
+  Contact us: hello @ thisdomain
+
 /* IMAGE CREDITS */
 
   Niklas Freidwall: https://flic.kr/p/6hB6X2
