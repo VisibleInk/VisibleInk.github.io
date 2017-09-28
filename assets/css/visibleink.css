@@ -31,3 +31,20 @@ font-family: 'Neuton', serif;
 }
 
 .all-caps { text-transform: uppercase; }
+
+.alert-box
+{
+  color: #555;
+  border-radius: 10px;
+  font-family: Tahoma,Geneva,Arial,sans-serif;
+  font-size: 13px;
+  padding: 10px 10px 10px 36px;
+  margin: 10px;
+  margin-top: 0;
+  margin-bottom: 50px;
+}
+
+.warning {
+    background:#fff8c4 no-repeat 10px 50%;
+    border:1px solid #f2c779;
+  }
