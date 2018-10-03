@@ -48,3 +48,8 @@ font-family: 'Neuton', serif;
     background:#fff8c4 no-repeat 10px 50%;
     border:1px solid #f2c779;
   }
+
+h1.text-dark,
+p.text-dark {
+  color: #222;
+}
