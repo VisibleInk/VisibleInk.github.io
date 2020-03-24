@@ -19,6 +19,6 @@
   The Climate Reality Project: https://unsplash.com/@climatereality
 
 /* SITE */
-  Last update: 2020/03/17
+  Last update: 2020/03/24
   Language: English
   Doctype: HTML5
