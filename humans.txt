@@ -13,12 +13,11 @@
 /* IMAGE CREDITS */
 
   Niklas Freidwall: https://flic.kr/p/6hB6X2
-
-  Ian Britton: https://flic.kr/p/4DZ55a
-
+  Joanna Kosinska: https://unsplash.com/@joannakosinska?
   The Climate Reality Project: https://unsplash.com/@climatereality
+  Bank Phrom: https://unsplash.com/@bank_phrom
 
 /* SITE */
-  Last update: 2020/07/13
+  Last update: 2020/10/07
   Language: English
   Doctype: HTML5
