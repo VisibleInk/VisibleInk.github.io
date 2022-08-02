@@ -47,5 +47,19 @@
 		"headline": "Deverell Gatehouse",
                 "author": "Karen MacLeod",
 		"caption": "Time has its own echoes ... Imogen Webb attempts reconciliation with her estranged husband and his family, while staying in medieval Deverell Gatehouse in rural Hampshire. But the atmospheric gatehouse has a troubled history and the present is shadowed by tragedy. As unexplained occurrences mount up, Imogen begins to realise that its past and present have an extraordinary link."
-        }
+        },
+				{
+					"bgImgURL": "consequence-girl.jpg",
+					"headline": "Consequence Girl",
+					"author": "Alastair Chisholm",
+					"linkURL": "https://alastairc.com/books/the-consequence-girl/",
+					"caption": "The world of Colony is in ruins. No one knows what disaster destroyed it – but the secret may lie with Cora, a girl living on the mountainside far away from others. Cora possesses an extraordinary gift: the power to see back in time, from an event back to its causes. Even more incredibly, sometimes she can change events. But the present is looking for Cora, and she is forced on the run. Soon, she must decide who she is, what she can do … and how to fix the future."
+				},
+				{
+					"bgImgURL": "dragon-storm-1.jpg",
+					"headline": "The Dragon Storm series",
+					"author": "Alastair Chisholm",
+					"linkURL": "https://alastairc.com/books/ds1-tomas-and-ironskin/",
+					"caption": "Tomas has always been told that now, dragons are extinct, and so he can’t believe it when a mysterious stranger invites him to join a secret society, the Dragonseer Guild – and tells him that not only do dragons still exist, but also that Tomas has a very special power… he can summon his very own dragon! But Tomas faces a difficult choice, and he and his dragon, Ironskin, must learn to trust each other – and together, they have to save their home from a deadly threat."
+				}
 ]
