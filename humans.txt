@@ -18,6 +18,6 @@
   Bank Phrom: https://unsplash.com/@bank_phrom
 
 /* SITE */
-  Last update: 2023/01/23
+  Last update: 2024/09/02
   Language: English
   Doctype: HTML5
