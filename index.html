@@ -19,8 +19,9 @@
     <link rel="stylesheet" href="assets/css/icomoon.css">
     <link href="assets/css/animate-custom.css" rel="stylesheet">
     <link href="assets/css/visibleink.css" rel="stylesheet">
-    <link href="assets/css/wrap-carousel.css" rel="stylesheet" />
-    <script src="assets/js/wrap-carousel.js"></script>
+    <!-- <link href="assets/css/wrap-carousel.css" rel="stylesheet" /> -->
+    <!-- <script src="assets/js/wrap-carousel.js"></script> -->
+    <link href="assets/css/carousel.css" rel="stylesheet">
 
     <link href='https://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Raleway:400,300,700' rel='stylesheet' type='text/css'>
@@ -66,7 +67,7 @@
 
 		<!-- ==== HEADERWRAP ==== -->
 	    <div id="headerwrap" id="home" name="home">
-		<div class="container" id="about" name="about">
+		<div class="container">
 			<header class="clearfix">
         <h1 class="hidden-xs"><span class="logo">Visible</span><span class="icon icon-pen"></span><span class="logo">Ink</span></h1>
         <h1 class="visible-xs"><span class="logo-xs">Visible</span><span class="icon icon-pen"></span><span class="logo-xs">Ink</span></h1>
@@ -168,7 +169,7 @@
         </h2>
 				<hr>
 				<div class="col-lg-offset-2 col-lg-8">
-          <p>We hold weekly virtual meetings online, and an in-person meeting once a month. If you'd like to join us, 
+          <p>We hold weekly virtual meetings online, and an in-person meeting once a month. If you'd like to join us,
             just send us an email and we'll give you the details:&nbsp;<span id="alertemail"></span>
           </p>
 
@@ -205,20 +206,163 @@
         regulars are the authors of
         published works. You can see some examples below.
       </p>
-  </div><!--- container --->
-</section>
-    <div class="col-lg-offset-2 col-lg-8">
-      <div id="carousel"></div>
-      <script src="assets/js/wrap-carousel.js"></script>
-      <script>
-      wrapCarousel({
-        container: '#carousel',
-        dataFileURI: 'assets/data/published_works.json',
-        imgsDirURI: 'assets/img/covers'
-      });
-      </script>
-    </div><!--- col-lg-offset-2 --->
 
+        <div class="carousel">
+            <input type="radio" name="slides" checked="checked" id="slide-1">
+            <input type="radio" name="slides" id="slide-2">
+            <input type="radio" name="slides" id="slide-3">
+            <input type="radio" name="slides" id="slide-4">
+            <input type="radio" name="slides" id="slide-5">
+            <input type="radio" name="slides" id="slide-6">
+            <ul class="carousel__slides">
+                <li class="carousel__slide">
+                    <figure>
+                        <div>
+                            <img src="assets/img/covers/i-am-wolf-400w.avif"
+                            alt="The cover of I Am Wolf">
+                        </div>
+                        <figcaption>
+
+                          <a href="https://alastairc.com/books/i-am-wolf/">
+                            <em>I Am Wolf</em> by <b>Alastair Chisholm</b>
+                          </a>
+                          <br />
+                          Coll belongs to Wolf.<br />
+In a savage world where huge technological Constructs fight for territory,
+living on Wolf and being part of her crew is all he has ever known.<br />
+But when a new and dangerous Construct attacks, Coll's life is changed
+forever. Thrown clear and left stranded, he'll do anything to get back to
+Wolf.<br />
+But as Coll learns a new way to survive, he starts to question everything he's
+been taught. Can he find Wolf again? And if he does … will he still belong?
+<br />
+                        </figcaption>
+                    </figure>
+                </li>
+                <li class="carousel__slide">
+                    <figure>
+                        <div>
+                            <img src="assets/img/covers/reek-400w.avif"
+                            alt="The cover of Reek">
+                        </div>
+                        <figcaption>
+                          <a href="https://alastairc.com/books/reek/">
+                            <em>Reek</em> by <b>Alastair Chisholm</b>
+                          </a>
+                          <br />
+Sparrow lives in the world after the Reek, a toxic pollution that covers the Earth. Only tech billionaire Axel Brodie knows how to make clean air, and Sparrow works every day to keep her family alive.
+                          <br />
+But when an inventor friend discovers a new way to survive the Reek, Sparrow’s life becomes even more deadly. Someone doesn’t want the world to learn what Sparrow knows – and they’ll do everything in their power to stop her…
+                          <br />
+Who will win in this battle to breathe free?
+                          <br />
+                        </figcaption>
+                    </figure>
+                </li>
+                <li class="carousel__slide">
+                    <figure>
+                        <div>
+                            <img
+                            src="assets/img/covers/deverell-gatehouse.jpg"
+                            alt="The cover of Deverell Gatehouse">
+                        </div>
+                        <figcaption>
+
+                          <a href="https://www.amazon.co.uk/DEVERELL-GATEHOUSE-Karen-MacLeod-ebook/dp/B00B815DQQ">
+                            <em>Deverell Gatehouse</em> by <b>Karen MacLeod</b>
+                          </a>
+                          <br />
+Time has its own echoes…
+<br />
+Imogen Webb attempts reconciliation with her estranged husband and his family, while staying in medieval Deverell Gatehouse in rural Hampshire. But the atmospheric gatehouse has a troubled history and the present is shadowed by tragedy. As unexplained occurrences mount up, Imogen begins to realise that its past and present have an extraordinary link.
+
+                        </figcaption>
+                    </figure>
+                </li>
+                <li class="carousel__slide">
+                    <figure>
+                        <div>
+                            <img src="assets/img/covers/denizens-of-dump.jpg"
+                            alt="The cover of Denizens of Dump">
+                        </div>
+                        <figcaption>
+                          <a href="https://www.amazon.co.uk/Denizens-Dump-Rory-Smith/dp/1790210291">
+                            <em>Denizens Of Dump</em> by <b>Rory Smith</b>
+                            <br/>
+                          </a>
+Dump: Where the Universe deposits its rubbish. Stuck on the junkyard planet,
+Kellin scavenges, sells scrap and tries to buy a matching pair of boots.Traci
+is hunted by her former friends and current enemies. When Kellin finds her
+zipped into a bag, she makes sure she doesn’t tell him her real name.<br/>
+Forming an uneasy alliance, the pair set out to find a ship, fix it, and leave Dump. It’s not going to be easy, as everyone – including Kellin’s gang, his best friend, Trig, and Dump’s unelected leader, Mr King – is dead-set against the idea.Never afraid of a challenge, Kellin’s going to need all his resources to pull this one off.
+                        </figcaption>
+                    </figure>
+                </li>
+                <li class="carousel__slide">
+                    <figure>
+                        <div>
+                            <img
+                            src="assets/img/covers/independence-stooshie.jpg"
+                            alt="The cover of Independence Stooshie">
+                        </div>
+                        <figcaption>
+                          <a href="https://www.amazon.co.uk/Independence-Stooshie-John-Murray/dp/B08DSS7Q5W">
+                            <em>Independence Stooshie</em> by <b>John Murray</b>
+                          </a>
+                            <br/>
+Queen Victoria was enamoured of her Scottish ghillie, Brown. How close was the liaison? On his deathbed her physician averred that there had been a love-child. What became of her? Of him? The New Pretender is at the centre of a plot to seize the Throne and restore Scotland’s independence. Behind the scheme are a Dunsinane turf-accountant, Grioch Macbet, and Hamish MacFetter, a rogue spy. What the conspirators neglect is the character of the Monarch. The opening of the London Olympics gave a glimpse of her links with the Secret Service. The rumour that she was Agent 001 was quashed. Was there truth in it? Battle is joined. Will it end as Bannockburn? Or Flodden? ‘Stooshie’ is a book wherein men - and women - may read strange matters.
+                        </figcaption>
+                    </figure>
+                </li>
+                <li class="carousel__slide">
+                    <figure>
+                        <div>
+                            <img src="assets/img/covers/jacobite-fire.jpg"
+                            alt="The cover of Jacobite Fire">
+                        </div>
+                        <figcaption>
+                          <a href="https://www.amazon.co.uk/Jacobite-Fire-David-Moore/dp/B08J1XBK9V">
+                            <em>Jacobite Fire</em> by <b>David Moore</b>
+                          </a>
+                            <br/>
+In 1712, Thomas Bowes, soldier and spy, returns to England from the continental wars to find a country in conflict. His family estates, usurped by fanatical Jacobites to fund rebellion, are in ruin. With only a band of ragged highwaymen to help him, Bowes sets out to frustrate the Jacobites and take back what is his. Meanwhile, Thomas Savery, inventor of a steam pumping engine, is at odds with his investors. With the fate of his engine uncertain, Savery sends his step-daughter, Annabella, on a dangerous mission to discover the intentions of his competitors and enemies.
+                            <br/>
+The arrogant and cruel Viscount Mountclare upsets the plans of both Bowes and Savery as he seeks to further his own ends – to place the Pretender, James Stuart on the throne.
+                            <br/>
+How do the fates of Bowes and Savery come together? Can Bowes regain his property? Will Savery’s engine succeed? Or will Mountclare destroy them both?
+                        </figcaption>
+                    </figure>
+                </li>
+            </ul>
+            <ul class="carousel__thumbnails">
+                <li>
+                    <label for="slide-1"><img
+                      src="assets/img/covers/i-am-wolf-400w.avif" alt=""></label>
+                </li>
+                <li>
+                    <label for="slide-2"><img
+                      src="assets/img/covers/reek-400w.avif" alt=""></label>
+                </li>
+                <li>
+                    <label for="slide-3"><img
+                      src="assets/img/covers/deverell-gatehouse.jpg" alt=""></label>
+                </li>
+                <li>
+                    <label for="slide-4"><img
+                      src="assets/img/covers/denizens-of-dump.jpg" alt=""></label>
+                </li>
+                <li>
+                    <label for="slide-5"><img
+                      src="assets/img/covers/independence-stooshie.jpg" alt=""></label>
+                </li>
+                <li>
+                    <label for="slide-6"><img
+                      src="assets/img/covers/jacobite-fire.jpg" alt=""></label>
+                </li>
+            </ul>
+        </div>
+    </div>
+</section>
 
 
 
@@ -308,6 +452,33 @@
             Francisco&quot;, &quot;Helvetica Neue&quot;, Helvetica, Ubuntu,
             Roboto, Noto, &quot;Segoe UI&quot;, Arial,
             sans-serif;font-size:12px;font-weight:bold;line-height:1.2;display:inline-block;border-radius:3px;"
+            href="https://unsplash.com/@riapuskas?utm_medium=referral&amp;utm_campaign=photographer-credit&amp;utm_content=creditBadge"
+            target="_blank" rel="noopener noreferrer"
+            title="Download free do whatever you want high-resolution photos from Joanna Kosinska">
+            <span style="display:inline-block;padding:2px 3px;"><svg
+                xmlns="http://www.w3.org/2000/svg"
+                style="height:12px;width:auto;position:relative;vertical-align:middle;top:-1px;fill:white;"
+                viewBox="0 0 32 32"><title></title><path d="M20.8 18.1c0
+                2.7-2.2 4.8-4.8 4.8s-4.8-2.1-4.8-4.8c0-2.7 2.2-4.8 4.8-4.8
+                2.7.1 4.8 2.2 4.8 4.8zm11.2-7.4v14.9c0 2.3-1.9 4.3-4.3
+                4.3h-23.4c-2.4 0-4.3-1.9-4.3-4.3v-15c0-2.3 1.9-4.3
+                4.3-4.3h3.7l.8-2.3c.4-1.1 1.7-2 2.9-2h8.6c1.2 0 2.5.9 2.9 2l.8
+                2.4h3.7c2.4 0 4.3 1.9 4.3 4.3zm-8.6
+                7.5c0-4.1-3.3-7.5-7.5-7.5-4.1 0-7.5 3.4-7.5 7.5s3.3 7.5 7.5
+                7.5c4.2-.1 7.5-3.4 7.5-7.5z"></path></svg></span><span
+              style="display:inline-block;padding:2px 3px;">Ria</span></a>,
+
+
+
+
+
+
+          <a
+            style="background-color:black;color:white;text-decoration:none;padding:4px
+            6px;font-family:-apple-system, BlinkMacSystemFont, &quot;San
+            Francisco&quot;, &quot;Helvetica Neue&quot;, Helvetica, Ubuntu,
+            Roboto, Noto, &quot;Segoe UI&quot;, Arial,
+            sans-serif;font-size:12px;font-weight:bold;line-height:1.2;display:inline-block;border-radius:3px;"
             href="https://unsplash.com/@joannakosinska?utm_medium=referral&amp;utm_campaign=photographer-credit&amp;utm_content=creditBadge"
             target="_blank" rel="noopener noreferrer"
             title="Download free do whatever you want high-resolution photos from Joanna Kosinska">
@@ -347,7 +518,7 @@
               style="display:inline-block;padding:2px 3px;">The Climate
               Reality Project</span></a>.
         </h4>
-        <p>This site was last updated September 2024.</p>
+        <p>This site was last updated November 2024.</p>
         <p><small><a href="humans.txt">humans.txt</a></small></p>
 			</div>
 		</div>

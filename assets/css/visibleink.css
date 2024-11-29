@@ -63,3 +63,7 @@ h1 {
   font-weight: 500;
   text-shadow: 2px 2px 3px #999;
 }
+
+#about, #join, #published, #contact {
+  background-color: rgba(255,255,255,0.8);
+}

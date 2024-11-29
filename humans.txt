@@ -16,8 +16,9 @@
   Joanna Kosinska: https://unsplash.com/@joannakosinska?
   The Climate Reality Project: https://unsplash.com/@climatereality
   Bank Phrom: https://unsplash.com/@bank_phrom
+  Ria: https://unsplash.com/@riapuskas
 
 /* SITE */
-  Last update: 2024/09/02
+  Last update: 2024/11/29
   Language: English
   Doctype: HTML5
